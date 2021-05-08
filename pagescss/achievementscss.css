@@ -1,0 +1,19 @@
+.text{
+    background-color: rgb(213, 238, 212);
+    padding: 25 px;
+    margin: 20px;
+    border-radius: 30px;
+    opacity: 80%;
+    font-size: xx-large;
+    height: 100vh;
+    overflow: hidden;
+    width: 96vw;
+}
+.text > div{
+    padding: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background-image: url("https://miro.medium.com/max/1000/1*4yjzh5_Oa0bgWBmf_TwfCg.jpeg");
+    background-size: cover;
+}

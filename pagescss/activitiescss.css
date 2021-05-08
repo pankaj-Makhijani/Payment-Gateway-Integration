@@ -1,0 +1,22 @@
+.cimages{
+    display: flex;
+    background-size: cover;
+}
+.class{
+    padding: 5px;
+}
+.class >h1{
+    padding-left: 10vw;
+    color: rgb(14, 13, 13);
+    font-size:60px;
+    font-family: 'Kaushan Script', cursive;
+}
+.cimages > img{
+    border-radius:70px;
+    padding: 3.8vw;
+    height: 44vh;
+    width: 25vw;
+}
+body{
+   background-color: rgb(195, 202, 211);
+}

@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-green-fresh-geometric-education-background-design-backgroundfresh-backgroundgeometric-backgroundeducationlearning-image_61172.jpg");
+    width: 100vw;
+    height: 100vh;
+    image-resolution:100vh 100vw ;
+    background-size: cover;
+}
+.text{
+    background-color: rgb(218, 225, 238);
+    opacity: 80%;
+    font-weight: bold;
+    padding: 25 px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: xx-large;
+    height: 80vh;
+    overflow: hidden;
+    width: 96vw;
+}
+.text > div{
+    padding: 60px;
+    font-family: 'Dancing Script', cursive;
+}

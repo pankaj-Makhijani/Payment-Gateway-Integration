@@ -1,0 +1,47 @@
+body{
+  background-image: url("https://i.pinimg.com/736x/60/22/52/602252b4b408f8b8902c94868e6f3ced.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text{
+    background-color: white;
+    opacity: 80%;
+    padding: 25 px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: xx-large;
+    height: 80vh;
+    overflow: hidden;
+    width: 96vw;
+}
+.text > div{
+    padding: 45px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 7px;
+  }
+  .foot{
+    text-align: center;
+    font-size: 40px;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  

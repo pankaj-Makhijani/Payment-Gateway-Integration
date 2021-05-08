@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+   overflow: hidden;
+}
+.body-img{
+    text-align:end;
+}
+
+header {
+    width: 98vw;
+    position: fixed;
+    font-size: x-large;
+    display: flex;
+    justify-content:space-between;
+    padding: 25px;
+    background-color:#F5F9FA;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+#container {
+  color:#999;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+  padding-top:200px;  
+  position:fixed;
+  width:20%;
+  bottom:10%;
+  display:block;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:black;
+}
+#flip div:first-child div {
+  background:#4ec7f3;
+}
+#flip div:last-child div {
+  background:#DC143C;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;} 
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+p {
+  position:fixed;
+  width:100%;
+  bottom:30px;
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+.button_right > form{
+   display: flex;
+   flex-direction: column;
+}
+.motto{
+    margin-top: 20vh;
+    margin-left:35vw;
+    font-size: 7vh;
+    text-align: center;
+}
+.button_right > form >input {
+  padding-right: 15px;
+  font-size:2.3vh;
+  margin: 3px;
+  background: none;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+.button_right >button {
+  padding-right: 15px;
+  font-size:2.3vh;
+  margin: 3px;
+  background: none;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+.backimg{
+   width: 100vw;
+   height: 100vh;
+}
+.top{
+    margin-top:22vh;
+    margin-left: 41vw;
+    text-align:center;
+}
+.support-text{
+    padding-bottom:30px;
+    font-family: 'PT Sans', sans-serif;
+    color: #665b5b;
+    
+}
+.foot{
+    background-color: black;
+    height: 20vh;
+}
+.paybutton{
+    margin-top: 70vh;
+    margin-left: 4.3vw;
+}
+.button_right{
+    display: flex;
+}
